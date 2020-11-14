@@ -19,6 +19,7 @@ namespace Semana3Navegacion
         {
             string user = txtuser.Text;
             string pass = txtpass.Text;
+            //test
             string user_val = "uisrael";
             string pass_val = "uisrael2020";
             await Navigation.PushAsync(new Ventana_dos(user,pass));
